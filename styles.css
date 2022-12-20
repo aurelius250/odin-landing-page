@@ -3,12 +3,13 @@ body {
     margin: 0;
 } 
 
-.outer-container { 
+.outer-header-container { 
     display:flex; 
-    background-color: #1F2937;
     flex-direction: column; 
     justify-content: center;
     padding-bottom: 150px;
+    background-color: #1F2937;
+
 }
 .header-container {  
     display:flex; 
@@ -85,3 +86,31 @@ button {
     padding-right: 25px;
 }
 
+.info-container h2{ 
+
+    font-size: 36px; 
+    font-weight: 800; 
+    text-align: center;
+    color: #1F2937; 
+    margin-bottom: 30px;
+}
+
+.inner-info-container { 
+    display:flex; 
+    flex: 1;
+}
+
+.img-pair { 
+    display:flex;
+    justify-content: space-between;    
+}
+
+.img-pair img { 
+    width: 250px; 
+    height: 250px;
+}
+
+.info-container {
+    padding-left: 300px; 
+    padding-right: 300px;
+}
