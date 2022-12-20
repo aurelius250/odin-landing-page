@@ -8,6 +8,7 @@ body {
     background-color: #1F2937;
     flex-direction: column; 
     justify-content: center;
+    padding-bottom: 150px;
 }
 .header-container {  
     display:flex; 
@@ -76,6 +77,7 @@ button {
     background-color: #3882F6;
     color: #F9FAF8; 
     padding: 5px;
+    border-radius: 8px;
 }
 .inner-hero-container button { 
     align-self: flex-start; 
