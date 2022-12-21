@@ -21,8 +21,8 @@ body {
     display:flex; 
     color:white;
     justify-content: space-between;
-    padding-right: 225px;
-    padding-left: 225px;
+    padding-right: 275px;
+    padding-left: 275px;
     align-items: center;
 }
 .header-logo { 
@@ -38,8 +38,8 @@ body {
 .hero-container { 
     margin-top: 150px;
     display:flex;
-    margin-left: 225px; 
-    margin-right: 225px; 
+    margin-left: 275px; 
+    margin-right: 275px; 
     margin-top: 150px;
     justify-content: space-between;
 }
@@ -155,19 +155,22 @@ button {
 .bottom-container { 
     margin-top: 100px;
     margin-bottom: 100px; 
-
+    display:flex; 
+    flex: 1;
+    justify-content: center;
 }
 
 .inner-bottom-container { 
     display:flex;
-    justify-content: center;
+    flex: 0.5 1 auto;
+    justify-content: space-evenly;
     background-color: #3882F6;
-    margin-left: 250px;
+    margin-left: 100px;
+    margin-right: 100px;
     border-radius:5px;
-    padding-top: 45px;
-    padding-bottom: 45px;
-    margin-right: 250px;
-    gap: 150px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    gap: 45px;
     align-items:center;
     
 }
@@ -175,8 +178,8 @@ button {
 .inner-bottom-container button { 
     border: 2px solid white;
     padding: 5px;  
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
     align-content: center;
     margin:0;
 }
@@ -192,4 +195,13 @@ button {
 .text-container p { 
     margin:0;
     color:#E5E7EB;
+}
+
+.footer { 
+    background-color: #1F2937;
+    display:flex;  
+    justify-content: center;
+    padding-top: 30px; 
+    padding-bottom: 30px; 
+    color:white;
 }
