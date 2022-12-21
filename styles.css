@@ -126,3 +126,31 @@ button {
     padding-left: 300px; 
     padding-right: 300px;
 }
+
+.quote-container {  
+    background-color: #E5E7EB;
+    padding-left: 300px; 
+    padding-right: 300px; 
+    padding-top: 150px; 
+    padding-bottom: 150px;
+}
+
+.quote-container p { 
+    font-size: 36px;
+    font-weight: 0;
+    font-style:italic;
+} 
+
+.quote-container .author { 
+    font-weight: bold; 
+    text-align: end;
+    font-size: 24px; 
+}
+
+.bottom-container { 
+    margin-top: 100px; 
+}
+
+.inner-bottom-container { 
+    background-color: ;
+}
